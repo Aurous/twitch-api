@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { TwitchAPI } from '../src';
 
 const twitch = new TwitchAPI({
