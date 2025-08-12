@@ -12,7 +12,7 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc --build --clean",
+    "build": "tsc --build --clean && tsc",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
     "lint": "eslint src --ext .js,.ts",
     "lint:fix": "eslint src --fix --ext .js,.ts",
