@@ -8,7 +8,7 @@ const twitch = new TwitchAPI({
 
 test('Get Emotes', async () => {
   const emotes = await twitch.chat.getEmotes(process.env['TWITCH_USER_ID']);
-  expect(emotes.find(e => e.name == "sammwyComfy")).toBeTruthy();
+  expect(emotes.find(e => e.name == "ryanhi1Pog")).toBeTruthy();
 });
 
 test('Get Emote Set', async () => {
