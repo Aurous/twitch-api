@@ -2,7 +2,7 @@
   "name": "twitch-api-ts",
   "author": "sammwy",
   "description": "Modern wrapper for the Twitch API with typings.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "main": "lib/index.js",
